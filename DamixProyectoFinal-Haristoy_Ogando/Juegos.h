@@ -14,7 +14,7 @@ class Juegos :
     int PuntuacionMax;
 public:
     void Cambiar_Dificultad(int dificultad,Cliente* cliente);
-    void Menu_juegos();
+    void Menu_juegos(int opcion);
     void Guardar(Cliente* cliente);
     void Sking(Cliente* cliente);
 };

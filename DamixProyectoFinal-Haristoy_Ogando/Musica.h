@@ -15,6 +15,7 @@ public:
     Musica();
     void Descargar(Cliente* cliente);
     void Filtro(string filtro, Cliente* Cliente);
+    void Menu_Musica(int opcion);
     ~Musica();
 
 };
