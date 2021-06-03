@@ -16,6 +16,7 @@ public:
     void Descargar(Cliente* cliente);
     void Filtro(string filtro, Cliente* Cliente);
     void Menu_Musica(int opcion);
+    void ImprimirMenu_Musica();
     ~Musica();
 
 };

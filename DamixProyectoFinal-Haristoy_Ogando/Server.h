@@ -12,7 +12,13 @@ class Server
 {
 	Servicio** Catalogo;
 	Servicio** Catalogo_FREE;
+	int Usuario_por_Dia[7];
 
-
+public:
+	Server();
+	void Cambio_Dia();
+	void FinalizarSemana(Cliente* cliente);
+	void IniciarSemana();
+	~Server();
 };
 

@@ -19,6 +19,7 @@ public:
     void Descargar(Cliente* cliente);
     void Menu_Video(int opcion);
     void Recibir_Rating(int puntos,Cliente*cliente);
+    void ImprimirMenu_Video();
     void Subtitulos(bool opcion,Cliente*cliente);
     ~Video();
 };
