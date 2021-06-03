@@ -16,7 +16,7 @@ public:
     Juegos();
     void Cambiar_Dificultad(int dificultad,Cliente* cliente);
     void Menu_juegos(int opcion);
-    void ImprimirMenu_Juegos();
+    int ImprimirMenu_Juegos();
     void Guardar(Cliente* cliente);
     void Sking(Cliente* cliente);
     ~Juegos();
