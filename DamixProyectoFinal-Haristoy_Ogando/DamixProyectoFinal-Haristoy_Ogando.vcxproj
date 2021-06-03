@@ -139,11 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="Estadistica.h" />
+    <ClInclude Include="Juegos.h" />
+    <ClInclude Include="Musica.h" />
     <ClInclude Include="Server.h" />
+    <ClInclude Include="Servicio.h" />
+    <ClInclude Include="Vide.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="Estadistica.cpp" />
+    <ClCompile Include="Juegos.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Musica.cpp" />
     <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Servicio.cpp" />
+    <ClCompile Include="Vide.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
