@@ -11,5 +11,11 @@ using namespace std;
 class Musica :
     public Servicio
 {
+public:
+    Musica();
+    void Descargar(Cliente* cliente);
+    void Filtro(string filtro, Cliente* Cliente);
+    ~Musica();
+
 };
 

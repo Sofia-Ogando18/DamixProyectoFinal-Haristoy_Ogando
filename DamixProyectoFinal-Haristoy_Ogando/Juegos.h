@@ -11,5 +11,11 @@ using namespace std;
 class Juegos :
     public Servicio
 {
+    int PuntuacionMax;
+public:
+    void Cambiar_Dificultad(int dificultad,Cliente* cliente);
+    void Menu_juegos();
+    void Guardar(Cliente* cliente);
+    void Sking(Cliente* cliente);
 };
 
