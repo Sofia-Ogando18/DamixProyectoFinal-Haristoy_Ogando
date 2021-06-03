@@ -12,6 +12,7 @@ sabiendo esto sacamos que tanto usa un usuario el servivio(su estadistica person
  que tanto se usa cada servicio (la estadistica de cada servicio)*/
 class Estadistica
 {
+	string usuario;
 
 
 };
