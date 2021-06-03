@@ -10,12 +10,12 @@
 using namespace std;
 class Servicio
 {
-	int Dia_Actual;
+	tm Dia_Actual;
 	string Nombre;
 	float Rating;
 	string* Tags[10];
 public:
-	Servicio();
+	Servicio(tm hoy, string nombre, float rating); /*string tags*/
 	void Apagar(Cliente* cliente);
 	void Iniciar(Cliente* cliente);
 	void Pausar(Cliente* cliente);

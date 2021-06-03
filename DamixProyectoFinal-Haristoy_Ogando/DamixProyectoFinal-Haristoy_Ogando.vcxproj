@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="Estadistica.h" />
+    <ClInclude Include="Hora_y_Fecha.h" />
     <ClInclude Include="Juegos.h" />
     <ClInclude Include="Musica.h" />
     <ClInclude Include="Server.h" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="Estadistica.cpp" />
+    <ClCompile Include="Hora_y_Fecha.cpp" />
     <ClCompile Include="Juegos.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Musica.cpp" />
