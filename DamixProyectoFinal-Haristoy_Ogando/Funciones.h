@@ -1,4 +1,7 @@
 #pragma once
-
-enum class TipoUsuario(Premium Free);
+#include <iostream>
+#include <sstream>
+#include<string.h>
+using namespace std;
+enum class TipoUsuario {};
 

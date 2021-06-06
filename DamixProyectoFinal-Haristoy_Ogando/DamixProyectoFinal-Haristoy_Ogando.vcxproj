@@ -142,7 +142,6 @@
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="EstadisticaCliente.h" />
     <ClInclude Include="Estadistica_Servicio.h" />
-    <ClInclude Include="Funciones.h" />
     <ClInclude Include="Hora_y_Fecha.h" />
     <ClInclude Include="Juegos.h" />
     <ClInclude Include="Lista_Cliente.h" />
