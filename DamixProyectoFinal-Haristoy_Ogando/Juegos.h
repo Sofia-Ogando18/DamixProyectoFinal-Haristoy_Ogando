@@ -12,13 +12,18 @@ class Juegos :
     public Servicio
 {
     int PuntuacionMax;
+    int Opcion;
 public:
     Juegos();
     void Cambiar_Dificultad(int dificultad,Cliente* cliente);
     void Menu_juegos(int opcion);
-    int ImprimirMenu_Juegos();
+    void ImprimirMenu_Juegos();
     void Guardar(Cliente* cliente);
+    void Jugar_tres_En_Raya();//programar el juego
+    void Instrucciones_3enRayas();
     void Sking(Cliente* cliente);
+    void jugarPong();//programar el juego
+    void InstruccionesPong();
     ~Juegos();
 };
 

@@ -12,6 +12,7 @@ using namespace std;
 class Video :
     public Servicio
 {
+    
    string** Actores;
 public:
     Video(string**actor);

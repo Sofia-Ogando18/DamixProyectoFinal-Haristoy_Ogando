@@ -1,20 +1,42 @@
 #include "Juegos.h"
 Juegos::Juegos() {};
-int Juegos::ImprimirMenu_Juegos() {
+void Juegos::ImprimirMenu_Juegos() {
     int n;
-    cout << "\n ------Elija una opcion------\n\n";
-    cout << "1  Ingresos\n";
-    cout << "2  Modificacion\n";
-    cout << "3  Consultas\n";
-    cout << "4  Reportes\n";
-    cout << "5  Utilidades\n";
+    cout << "\n ------Elija el juego que quiere jugar-----\n\n";
+    cout << "1  jugar 3 en raya \n";
+    cout << "2  jugar pong \n";
     cout << "6  Salir\n\n";
     cin >> n;
-    return n;
+    Opcion = n;
 
 }; //cambiar
 void Juegos::Cambiar_Dificultad(int dificultad, Cliente* cliente) {};
-void Juegos:: Menu_juegos(int opcion) {};
+void Juegos:: Menu_juegos(int opcion) {
+    switch (opcion)
+    {
+    case 1:
+        Jugar_tres_En_Raya();
+    case 2:
+        jugarPong();
+
+    case 6:
+        break;
+
+    default:
+        break;
+    }
+
+};
 void Juegos::Guardar(Cliente* cliente) {};
 void Juegos::Sking(Cliente* cliente) {};
+void Juegos::Instrucciones_3enRayas() {
+
+
+};
+void Juegos::Jugar_tres_En_Raya() {
+    Instrucciones_3enRayas();
+
+};
+void Juegos::jugarPong() {};
+void Juegos::InstruccionesPong() {};
 Juegos::~Juegos() {};

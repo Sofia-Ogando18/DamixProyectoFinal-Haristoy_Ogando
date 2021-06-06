@@ -10,17 +10,20 @@
 using namespace std;
 class Servicio
 {
+	
 	tm Dia_Actual;
 	string Nombre;
 	float Rating;
 	string* Tags[10];
+	unsigned int Opcion;
 public:
 	Servicio(tm hoy, string nombre, float rating); /*string tags*/
 	void Apagar(Cliente* cliente);
 	void Iniciar(Cliente* cliente);
 	void Pausar(Cliente* cliente);
 	void Recibir_Rating(int rating, Cliente* cliente);
-	void Imprimir_Menu();
+	int Imprimir_Menu();
+	void Opcion_Menu();
 	~Servicio();
 
 

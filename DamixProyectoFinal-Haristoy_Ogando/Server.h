@@ -6,12 +6,16 @@
 #include <sstream>
 #include <iostream>
 #include <time.h>
+#include "Lista_Servicio.h"
+#include"Lista_EstadisticaSV.h"
 #include "Servicio.h"
 using namespace std;
 class Server
 {
-	Servicio** Catalogo;
-	Servicio** Catalogo_FREE;
+	Lista_Servicio** Catalogo;
+	Lista_Servicio** Catalogo_FREE;
+	Lista_EstadisticaSV** DatosServ;
+	Lista_EstadisticaSV** DatosServ_N;
 	int Usuario_por_Dia[7];
 
 public:
