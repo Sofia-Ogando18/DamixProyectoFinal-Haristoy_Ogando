@@ -140,9 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
-    <ClInclude Include="Estadistica.h" />
+    <ClInclude Include="EstadisticaCliente.h" />
+    <ClInclude Include="Estadistica_Servicio.h" />
     <ClInclude Include="Hora_y_Fecha.h" />
     <ClInclude Include="Juegos.h" />
+    <ClInclude Include="Lista_Cliente.h" />
+    <ClInclude Include="Lista_EstadisticaCL.h" />
+    <ClInclude Include="Lista_EstadisticaSV.h" />
+    <ClInclude Include="Lista_Servicio.h" />
     <ClInclude Include="Musica.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Servicio.h" />
@@ -150,9 +155,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cliente.cpp" />
-    <ClCompile Include="Estadistica.cpp" />
+    <ClCompile Include="EstadisticaCliente.cpp" />
+    <ClCompile Include="Estadistica_Servicio.cpp" />
     <ClCompile Include="Hora_y_Fecha.cpp" />
     <ClCompile Include="Juegos.cpp" />
+    <ClCompile Include="Lista_Cliente.cpp" />
+    <ClCompile Include="Lista_EstadisticaCL.cpp" />
+    <ClCompile Include="Lista_EstadisticaSV.cpp" />
+    <ClCompile Include="Lista_Servicio.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Musica.cpp" />
     <ClCompile Include="Server.cpp" />
