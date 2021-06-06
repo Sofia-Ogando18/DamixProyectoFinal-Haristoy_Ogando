@@ -9,5 +9,11 @@
 using namespace std;
 class Cliente
 {
+	bool Actividad;
+	Servicio* Actual;
+	string Contrasenia;
+	tm Inicio;
+
+
 };
 

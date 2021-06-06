@@ -12,7 +12,7 @@ using namespace std;
 class Video :
     public Servicio
 {
-    
+    //friend class Servicio;
    string** Actores;
 public:
     Video(string**actor);

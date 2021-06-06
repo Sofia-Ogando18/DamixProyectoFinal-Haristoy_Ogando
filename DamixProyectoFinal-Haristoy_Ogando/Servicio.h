@@ -22,7 +22,7 @@ public:
 	void Iniciar(Cliente* cliente);
 	void Pausar(Cliente* cliente);
 	void Recibir_Rating(int rating, Cliente* cliente);
-	int Imprimir_Menu();
+	void Imprimir_Menu();
 	void Opcion_Menu();
 	~Servicio();
 
