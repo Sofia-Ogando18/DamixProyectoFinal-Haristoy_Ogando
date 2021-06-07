@@ -7,5 +7,5 @@
 using namespace std;
 string fecha_to_string(tm fecha);
 enum class TipoUsuarios { Premium, Free }; typedef TipoUsuarios tipousuarios;
-
+enum class Series {Lost, WandaVision,TWD}; typedef Series series;
 

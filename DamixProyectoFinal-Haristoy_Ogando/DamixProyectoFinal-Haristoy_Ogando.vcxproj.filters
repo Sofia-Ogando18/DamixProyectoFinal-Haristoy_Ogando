@@ -36,9 +36,6 @@
     <ClInclude Include="Hora_y_Fecha.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="EstadisticaCliente.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Lista_EstadisticaCL.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -51,7 +48,7 @@
     <ClInclude Include="Lista_EstadisticaSV.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Estadistica_Servicio.h">
+    <ClInclude Include="Estadistica.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
@@ -80,9 +77,6 @@
     <ClCompile Include="Hora_y_Fecha.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="EstadisticaCliente.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Lista_EstadisticaCL.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -95,7 +89,7 @@
     <ClCompile Include="Lista_EstadisticaSV.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Estadistica_Servicio.cpp">
+    <ClCompile Include="Estadistica.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

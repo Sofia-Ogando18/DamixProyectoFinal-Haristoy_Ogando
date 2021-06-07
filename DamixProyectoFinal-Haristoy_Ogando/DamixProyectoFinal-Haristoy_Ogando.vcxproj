@@ -140,8 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
-    <ClInclude Include="EstadisticaCliente.h" />
-    <ClInclude Include="Estadistica_Servicio.h" />
+    <ClInclude Include="Estadistica.h" />
     <ClInclude Include="Hora_y_Fecha.h" />
     <ClInclude Include="Juegos.h" />
     <ClInclude Include="Lista_Cliente.h" />
@@ -155,8 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cliente.cpp" />
-    <ClCompile Include="EstadisticaCliente.cpp" />
-    <ClCompile Include="Estadistica_Servicio.cpp" />
+    <ClCompile Include="Estadistica.cpp" />
     <ClCompile Include="Hora_y_Fecha.cpp" />
     <ClCompile Include="Juegos.cpp" />
     <ClCompile Include="Lista_Cliente.cpp" />
