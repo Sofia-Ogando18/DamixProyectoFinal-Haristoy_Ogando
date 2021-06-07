@@ -12,8 +12,9 @@
 using namespace std;
 class Server
 {
-	Lista_Servicio** Catalogo;
-	Lista_Servicio** Catalogo_FREE;
+	Lista_Servicio** Catalogo_Premium;
+	Lista_Servicio** Catalogo_FREE;//cambia todos los dias
+	Lista_Servicio** Catalogo_Basic;
 	Lista_EstadisticaSV** DatosServ;
 	Lista_EstadisticaSV** DatosServ_N;
 	int Usuario_por_Dia[7];
@@ -22,6 +23,7 @@ public:
 	Server();
 	void Cambio_Dia();
 	void FinalizarSemana(Cliente* cliente);
+	void TipodeServicios();//funcion que imprime que hace cada usuario y cuanto sales
 	void IniciarSemana();
 	~Server();
 };

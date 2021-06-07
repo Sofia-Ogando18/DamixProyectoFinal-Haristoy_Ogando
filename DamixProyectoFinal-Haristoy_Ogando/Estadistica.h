@@ -26,6 +26,7 @@ class Estadistica
 	//no se que son los serv 
 public:
 	void Aniadir_Servicio(Servicio*plataforma);
+	void TipoEstadistica();//que tipo de estadistica quiere ver (estadistica general,estadistica personal o estadistica todos los usuarios por pais)
 	Estadistica();
 	void Calcular_Fav();
 	void TiempoActivo();

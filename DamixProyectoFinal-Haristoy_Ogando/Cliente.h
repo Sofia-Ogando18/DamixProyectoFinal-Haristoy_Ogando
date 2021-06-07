@@ -7,14 +7,16 @@
 #include <iostream>
 #include <time.h>
 #include "Hora_y_Fecha.h"
-#include"EstadisticaCliente.h"
+//#include"EstadisticaCliente.h"
+#include "Estadistica.h"
 #include "Servicio.h"
 using namespace std;
 class Cliente
 {
 	bool Actividad;
-	EstadisticaCliente* Informacion_Prom;
-	EstadisticaCliente* Informacion_sem;
+	string Pais;
+	Estadistica* Informacion_Prom;
+	Estadistica* Informacion_sem;
 	Servicio* Actual;
 	string Usuario;
 	string Contrasenia;
