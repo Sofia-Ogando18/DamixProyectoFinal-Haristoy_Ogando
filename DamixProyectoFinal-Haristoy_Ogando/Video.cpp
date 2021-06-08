@@ -8,12 +8,11 @@ void Video::Menu_Video(int opcion) {};
 void Video::ImprimirMenu_Video() {
     int m;
     cout << "\n ------Elija una opcion------\n\n";
-    cout << "1  Ingresos\n";
-    cout << "2  Modificacion\n";
-    cout << "3  Consultas\n";
-    cout << "4  Reportes\n";
-    cout << "5  Utilidades\n";
+    cout << "1  Ver lista de titulos disponibles\n";
+    cout << "2  ver mis favoritos\n";
+    cout << "3  descargas \n"; //en el switch ver si es basic o premium si es free no  puede descargar
     cout << "6  Salir\n\n";
-
+    cin >> m;
+    //this->Opcion = m;
 }; //cambiar
 Video::~Video() {};

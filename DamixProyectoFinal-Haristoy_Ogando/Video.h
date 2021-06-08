@@ -14,6 +14,7 @@ class Video :
 {
     //friend class Servicio;
    string** Actores;
+
 public:
     Video(string**actor);
     string** BuscarporActor(Cliente* cliente);
