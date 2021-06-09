@@ -7,10 +7,11 @@
 #include <iostream>
 #include <time.h>
 #include "Cliente.h"
+#include "Video.h"
 using namespace std;
 class Servicio
 {
-	
+	friend class Video;
 	tm Dia_Actual;
 	string Nombre;
 	float Rating;
@@ -24,6 +25,7 @@ public:
 	void Recibir_Rating(int rating, Cliente* cliente);
 	void Imprimir_Menu();
 	void Opcion_Menu();
+	Servicio();
 	~Servicio();
 
 

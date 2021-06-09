@@ -1,5 +1,6 @@
 #include "Servicio.h"
 /*string tags*/
+
 Servicio::Servicio(tm hoy, string nombre, float rating) {
 	this->Dia_Actual = hoy;
 	this->Nombre = nombre;
@@ -22,10 +23,11 @@ void Servicio::Imprimir_Menu() {
 
 };
 void Servicio::Opcion_Menu() {
+ 
     switch (Opcion)
     {
     case 1:
-        ImprimirMenu_Video();
+       ImprimirMenu_Video();
      case 2:
          ImprimirMenu_Musica();
      case 3:
@@ -37,5 +39,9 @@ void Servicio::Opcion_Menu() {
     }
 
 
-};
+}
+Servicio::Servicio()
+{
+}
+;
 Servicio::~Servicio() {};
