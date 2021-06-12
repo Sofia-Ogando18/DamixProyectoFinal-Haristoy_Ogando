@@ -24,6 +24,7 @@ public:
 	void Pausar(Cliente* cliente);
 	void Recibir_Rating(int rating, Cliente* cliente);
 	void Imprimir_Menu();
+	void ImprimirMenu_Video();
 	void Opcion_Menu();
 	Servicio();
 	~Servicio();
