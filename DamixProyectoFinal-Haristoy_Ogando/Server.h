@@ -23,7 +23,7 @@ public:
 	Server();
 	void Cambio_Dia();
 	void FinalizarSemana(Cliente* cliente);
-	void TipodeServicios();//funcion que imprime que hace cada usuario y cuanto sales
+	
 	void IniciarSemana();
 	~Server();
 };

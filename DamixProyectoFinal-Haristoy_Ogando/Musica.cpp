@@ -2,7 +2,7 @@
 Musica::Musica() {};
 void Musica::Descargar(Cliente* cliente) {};
 void Musica::Filtro(string filtro, Cliente* Cliente) {};
-void Musica::Menu_Musica(int opcion) {};
+void Musica::Menu_Musica(int opcion) {};//hacer el switch
 void Musica:: ImprimirMenu_Musica() {
     int m;
     cout << "\n ------Elija una opcion------\n\n";
@@ -12,6 +12,7 @@ void Musica:: ImprimirMenu_Musica() {
     cout << "4  Reportes\n";
     cout << "5  Utilidades\n";
     cout << "6  Salir\n\n";
-
-}; //cambiar
+    cin >> m;
+    Menu_Musica(m);
+}; 
 Musica::~Musica() {};

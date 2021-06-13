@@ -7,6 +7,8 @@
 #include <iostream>
 #include <time.h>
 #include "Cliente.h"
+#include"Musica.h"
+#include "Juegos.h"
 #include "Video.h"
 using namespace std;
 class Servicio
@@ -24,10 +26,12 @@ public:
 	void Pausar(Cliente* cliente);
 	void Recibir_Rating(int rating, Cliente* cliente);
 	void Imprimir_Menu();
-	void ImprimirMenu_Video();
-	void Opcion_Menu();
+	void TipodeUsuarios();//funcion que imprime que hace cada usuario y cuanto sales
+	//void ImprimirMenu_Video();
+	void Opcion_Menu(int opc);
 	Servicio();
 	~Servicio();
+	
 
 
 };

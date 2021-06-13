@@ -19,19 +19,19 @@ void Servicio::Imprimir_Menu() {
     cout << "3  jugar juegos\n";
     cout << "4  Salir\n\n";
     cin >> n;
-    Opcion = n;
-
+   this-> Opcion = n;
+   Opcion_Menu(n);
 };
-void Servicio::Opcion_Menu() {
+void Servicio::Opcion_Menu(int opc) {
  
-    switch (Opcion)
+    switch (opc)
     {
     case 1:
-       ImprimirMenu_Video();
+        Video::ImprimirMenu_Video;
      case 2:
-         ImprimirMenu_Musica();
+        Musica::ImprimirMenu_Musica;
      case 3:
-         ImprimirMenu_Juegos();
+         Juegos::ImprimirMenu_Juegos;
      case 4:
          break;
     default:
@@ -43,14 +43,21 @@ void Servicio::Opcion_Menu() {
 Servicio::Servicio()
 {
 }
-void Servicio::ImprimirMenu_Video() {
-    int m;
-    cout << "\n ------Elija una opcion------\n\n";
-    cout << "1  Ver lista de titulos disponibles\n";
-    cout << "2  ver mis favoritos\n";
-    cout << "3  descargas \n"; //en el switch ver si es basic o premium si es free no  puede descargar
-    cout << "6  Salir\n\n";
-    cin >> m;
-    //this->Opcion = m;
-}; //cambiar
+//void Servicio::ImprimirMenu_Video() {
+//    int m;
+//    cout << "\n ------Elija una opcion------\n\n";
+//    cout << "1  Ver lista de titulos disponibles\n";
+//    cout << "2  ver mis favoritos\n";
+//    cout << "3  descargas \n"; //en el switch ver si es basic o premium si es free no  puede descargar
+//    cout << "6  Salir\n\n";
+//    cin >> m;
+//    //this->Opcion = m;
+//}; //cambiar
 Servicio::~Servicio() {};
+void Servicio::TipodeUsuarios()
+{
+    string auxp = "/n la cuenta PREMIUM cuesta $200(ARG) al mes y tiene acceso a toda la plataforma ilimitadamente con estrenos exclusivos que podes descargar y mirarlos cuando quieras ";
+    string auxb = "/n la cuenta BASIC cuesta $150(ARG) al mes con acceso a toda la plataforma por 8 horas todos los dias ";
+    string auxf = "/n la cuenta FREE todos los dias tiene una lista de titulos nuevos y un acceso diario de 8 horas";
+    cout << auxp + auxb + auxf;
+};

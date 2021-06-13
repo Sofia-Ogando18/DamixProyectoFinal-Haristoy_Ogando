@@ -7,9 +7,9 @@ void Juegos::ImprimirMenu_Juegos() {
     cout << "2  jugar pong \n";
     cout << "6  Salir\n\n";
     cin >> n;
-    Opcion = n;
+    Menu_juegos(n);
 
-}; //cambiar
+}; 
 void Juegos::Cambiar_Dificultad(int dificultad, Cliente* cliente) {};
 void Juegos:: Menu_juegos(int opcion) {
     switch (opcion)
