@@ -10,7 +10,7 @@
 #include "Lista_Servicio.h"
 #include "Hora_y_Fecha.h"
 using namespace std;
-//guarda las estadisticas de cadaa usiario y en base a eso se sacan las estadisticas del servicio
+//guarda las estadisticas de cada usiario y en base a eso se sacan las estadisticas del servicio y globales
 class Estadistica
 {
 	int Cant_Servicios;

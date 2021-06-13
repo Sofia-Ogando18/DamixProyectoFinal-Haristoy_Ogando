@@ -139,8 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Basic.h" />
+    <ClInclude Include="CatalogoFree.h" />
     <ClInclude Include="Cliente.h" />
+    <ClInclude Include="Descargas.h" />
     <ClInclude Include="Estadistica.h" />
+    <ClInclude Include="Favoritos.h" />
+    <ClInclude Include="Free.h" />
     <ClInclude Include="Hora_y_Fecha.h" />
     <ClInclude Include="Juegos.h" />
     <ClInclude Include="Lista_Cliente.h" />
@@ -148,13 +153,18 @@
     <ClInclude Include="Lista_EstadisticaSV.h" />
     <ClInclude Include="Lista_Servicio.h" />
     <ClInclude Include="Musica.h" />
+    <ClInclude Include="Premium.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Servicio.h" />
+    <ClInclude Include="Usuarios.h" />
     <ClInclude Include="Video.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Basic.cpp" />
+    <ClCompile Include="CatalogoFree.cpp" />
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="Estadistica.cpp" />
+    <ClCompile Include="Free.cpp" />
     <ClCompile Include="Hora_y_Fecha.cpp" />
     <ClCompile Include="Juegos.cpp" />
     <ClCompile Include="Lista_Cliente.cpp" />
@@ -163,8 +173,10 @@
     <ClCompile Include="Lista_Servicio.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Musica.cpp" />
+    <ClCompile Include="Premium.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Servicio.cpp" />
+    <ClCompile Include="Usuarios.cpp" />
     <ClCompile Include="Video.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

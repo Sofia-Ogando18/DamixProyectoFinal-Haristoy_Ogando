@@ -19,7 +19,6 @@ void Servicio::Imprimir_Menu() {
     cout << "3  jugar juegos\n";
     cout << "4  Salir\n\n";
     cin >> n;
-   this-> Opcion = n;
    Opcion_Menu(n);
 };
 void Servicio::Opcion_Menu(int opc) {

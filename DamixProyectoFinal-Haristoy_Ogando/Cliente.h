@@ -10,6 +10,7 @@
 //#include"EstadisticaCliente.h"
 #include "Estadistica.h"
 #include "Servicio.h"
+#include "Usuarios.h"
 using namespace std;
 class Cliente
 {

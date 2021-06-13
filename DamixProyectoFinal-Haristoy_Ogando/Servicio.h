@@ -18,7 +18,7 @@ class Servicio
 	string Nombre;
 	float Rating;
 	string* Tags[10];
-	unsigned int Opcion;
+
 public:
 	Servicio(tm hoy, string nombre, float rating); /*string tags*/
 	void Apagar(Cliente* cliente);
